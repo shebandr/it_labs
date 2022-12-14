@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <div class="menu" onMouseOver="show('dm1')" >Меню 1</div>
+        <div class="menu" onMouseOver="show('dm2')" >Меню 2</div>
+        <div class="menu" onMouseOver="show('dm3')" >Меню 3</div>
+    </div>
+    <div class="head2">
+        <div class="dropmenuhided" id="dm1" onmouseout="hide('dm1')" onmouseover="cancel('dm1')">
+            <div class="punkt"></div>
+            <div class="punkt"></div>
+            <div class="punkt"></div>
+        </div>
+        <div class="dropmenuhided" id="dm2" onmouseout="hide('dm2')" onmouseover="cancel('dm1')">
+            <div class="punkt"></div>
+            <div class="punkt"></div>
+            <div class="punkt"></div>
+        </div>
+        <div class="dropmenuhided" id="dm3" onmouseout="hide('dm3')" onmouseover="cancel('dm1')">
+            <div class="punkt"></div>
+            <div class="punkt"></div>
+            <div class="punkt"></div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>

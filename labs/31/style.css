@@ -1,0 +1,71 @@
+.head{
+    display: flex;
+}
+.head2{
+    display: flex;
+    margin: -10px 0 0 20px;
+}
+.menu {
+    flex-direction: column;
+    display: block;
+    background-color: aquamarine;
+    height: 30px;
+    width: 100px;
+    border: lightblue 1px solid;
+    text-align: center;
+    font-size: 20px;
+}
+
+.dropmenushowed {
+    display: block;
+}
+
+
+.dropmenuhided {
+    display: none;
+}
+
+#dm1 {
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    background-color: aquamarine;
+    height: 102px;
+    width: 104px;
+    border: lightblue 1px solid;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#dm2 {
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    background-color: aquamarine;
+    height: 102px;
+    width: 104px;
+    border: lightblue 1px solid;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#dm3 {
+    position: absolute;
+    left: 220px;
+    top: 40px;
+    background-color: aquamarine;
+    height: 102px;
+    width: 104px;
+    border: lightblue 1px solid;
+    text-align: center;
+    font-size: 20px;
+}
+
+.punkt {
+    height: 30px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px black solid;
+}

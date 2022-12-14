@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа N 2.3</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrap">
+            <div class="table-wrap">
+                <h3 class="calc-title">Вычисление площади</h3>
+                <p class="calc-method">Автоматически</p>
+                <label class="side-len" for="auto-calc__side">Сторона:</label>
+                <input input type="text" id="auto-calc__side" name="auto-calc__side"><br><br>
+                <label class="side-len" for="auto-calc__square">Площадь:</label>
+                <input input type="text" id="auto-calc__square" name="auto-calc__square" disabled="disabled">
+            </div>
+            <div class="table-wrap">
+                <h3 class="calc-title">Вычисление площади</h3>
+                <p class="calc-method">Перейдите на поле 'сторона'</p>
+                <label class="side-len" for="mouse-on__side">Сторона:</label>
+                <input input type="text" id="mouse-on__side" name="mouse-on__side"><br><br>
+                <label class="side-len" for="mouse-on__square">Площадь:</label>
+                <input input type="text" id="mouse-on__square" name="mouse-on__square" disabled="disabled">
+            </div>
+            <div class="table-wrap">
+                <h3 class="calc-title">Вычисление площади</h3>
+                <p class="calc-method">Уйдите с поля 'сторона'</p>
+                <label class="side-len" for="mouse-out__side">Сторона:</label>
+                <input input type="text" id="mouse-out__side" name="mouse-out__side"><br><br>
+                <label class="side-len" for="mouse-out__square">Площадь:</label>
+                <input input type="text" id="mouse-out__square" name="mouse-out__square" disabled="disabled">
+            </div>
+            <div class="table-wrap">
+                <h3 class="calc-title">Вычисление площади</h3>
+                <p class="calc-method">Выделите поле 'сторона'</p>
+                <label class="side-len" for="on-select__side">Сторона:</label>
+                <input input type="text" id="on-select__side" name="on-select__side"><br><br>
+                <label class="side-len" for="on-select__square">Площадь:</label>
+                <input input type="text" id="on-select__square" name="on-select__square" disabled="disabled">
+            </div>
+        </div>
+    </div>
+</body>
+<script async src="./scripts.js"></script>
+</html>

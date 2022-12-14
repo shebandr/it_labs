@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="menu">
+                Меню 0.1
+                <div class="dropdown">
+                    <ul>
+                        <li>меню 2</li>
+                        <li>меню 2</li>
+                        <li>меню 2</li>
+                        <li>меню 2</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu">
+                Меню 0.5
+                <div class="dropdown">
+                    <ul>
+                        <li>меню 2</li>
+                        <li>меню 2</li>
+                        <li>меню 2</li>
+                        <li>меню 2</li>
+                    </ul>
+                </div></div>
+            <div class="menu">
+                Меню 1
+                <div class="dropdown">
+                    <ul>
+                        <li>меню 2</li>
+                        <li>меню 2</li>
+                        <li>меню 2</li>
+                        <li>меню 2</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+    </body>
+    <script>
+        const delay = 800
+
+        function hideSub(ishidden) {
+            setTimeout(() => this.children[0].classList.toggle("show"), delay)
+        }
+        
+        function showSub(ishidden) {
+            this.children[0].classList.toggle("show")
+        }
+
+        el = document.getElementsByClassName('menu')
+        for (i = 0; i<el.length; i++){
+            el[i].addEventListener("mouseenter", showSub)
+            el[i].addEventListener("mouseleave", hideSub)
+        }
+    </script>
+</html>

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.wrap{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.table-wrap{
+    margin: 5px;
+    padding: 15px;
+    background-image: linear-gradient(to bottom right, rgb(30, 221, 62), rgb(104, 140, 207));
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3%;
+}
+
+.calc-title {
+    padding: 10px;
+}
+
+.calc-method{
+    margin-bottom: 15px;
+}

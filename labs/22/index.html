@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <img id="first" src="s1.gif">
+</body>
+<button onclick="clearInterval(timerid) ">стоп</button>
+<button onclick="clearInterval(timerid);timerid = setInterval(start, speed)">старт</button>
+<button onclick="speed=speed-100; if(speed<100){speed=100};console.log(speed) ">быстрее</button>
+<button onclick="speed=speed+100;console.log(speed) ">медленнее</button>
+
+</html>
+<style>
+  img {
+    height: 60px;
+  }
+</style>
+<script>
+  var first = document.getElementById("first")
+  var i = 0
+  function start() {
+
+    i++
+    if (i == 13) {
+      i = 1
+    }
+    first.src = "s" + i + ".gif"
+
+  }
+  var speed = 1000
+  var timerid
+  console.log(first)
+</script>

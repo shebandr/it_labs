@@ -1,0 +1,88 @@
+.container{
+    max-width: 1600px;
+}
+
+.container-article{
+    max-width: 1600px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(125, 121, 121);
+}
+
+.wrap-header{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    font-size: 24px; 
+}
+
+.main{
+    margin-left: 15px;
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.regular-text{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bold-text{
+    font-weight: 700;
+}
+
+.wrap-brigada{
+    text-align: right;
+}
+
+.poem{
+    margin-left: 55px;
+    font-style: italic;
+}
+
+.author{
+    text-align: right;
+}
+
+/* 2 task */
+.courses-list{
+    list-style-type:disc;
+}
+
+.subjects-list{
+    list-style-type:decimal;
+}
+
+.subjects-types{
+    list-style-type:square;
+}
+
+/* 3 task */
+.wrap-article{
+    margin: 50px 2em 50px 5em;
+    background-color: #ffffff;
+}
+
+.article-title{
+    position: absolute;
+    top: 55vh;
+    left: 70vh;
+    color: rgb(41, 12, 145);
+    z-index: 5;
+}
+
+.article-title:last-child{
+    position: absolute;
+    top: calc(55vh + 3px);
+    left: calc(70vh + 2px);
+    z-index: 3;
+    color: rgb(74, 63, 63);
+}
+
+.article-body{
+    padding-right: 50px;
+    border-right: 7px solid rgb(65, 23, 216);
+    border-right-style: double;
+}

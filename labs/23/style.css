@@ -1,0 +1,38 @@
+.block {
+  height: 400px;
+  width: 1200px;
+  border: black 2px;
+  display: flex;
+  flex-direction:row;
+
+}
+
+.window {
+  background-color: lightgray;
+  width: 580px;
+  height: 380px;
+  display: flex;
+  margin: 10px;
+
+}
+
+input {
+  height: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  height: 34px;
+  width: 162px;
+  background-color: red;
+  display: block;
+}
+
+#c2 {
+  display: block;
+}
+
+.q {
+  display: block;
+}

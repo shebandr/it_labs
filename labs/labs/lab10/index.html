@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа N 3.3</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="select-container">
+            <label for="faculty">Факультет:</label>
+            <select name="faculty" id="faculty" class="dropdown-list"></select>
+            <label for="course">Курс:</label>
+            <select name="course" id="course" class="dropdown-list"></select>
+            <label for="group-name">Группа:</label>
+            <select name="group-name" id="group-name" class="dropdown-list"></select>
+            <label for="fullname">ФИО:</label>
+            <select name="fullname" id="fullname" class="dropdown-list"></select>
+        </div>
+        <div class="table-container">
+            <table class="student-marks" id="student-marks">
+                <thead class="student-marks__header">
+                    <tr>
+                        <td>Предмет</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                </thead>
+                <tbody class="student-marks__body">
+                    <tr id="metrology">
+                        <td class="subject-name">Метрология, Стандартизация и Сертификация</td>
+                        <td><input class="radio-btn" type="radio" id="metrology-radiobtn__1" name="metrology-radiobtn" value="0"></td>
+                        <td><input class="radio-btn" type="radio" id="metrology-radiobtn__2" name="metrology-radiobtn" value="1"></td>
+                        <td><input class="radio-btn" type="radio" id="metrology-radiobtn__3" name="metrology-radiobtn" value="2"></td>
+                    </tr>
+                    <tr id="oop">
+                        <td class="subject-name">ООП</td>
+                        <td><input class="radio-btn" type="radio" id="oop__1" name="oop-radiobtn" value="0"></td>
+                        <td><input class="radio-btn" type="radio" id="oop__2" name="oop-radiobtn" value="1"></td>
+                        <td><input class="radio-btn" type="radio" id="oop__3" name="oop-radiobtn" value="2"></td>
+                    </tr>
+                    <tr id="architecture">
+                        <td class="subject-name">Архитектура Вычислительных систем</td>
+                        <td><input class="radio-btn" type="radio" id="architecture__1" name="architecture-radiobtn" value="0"></td>
+                        <td><input class="radio-btn" type="radio" id="architecture__1" name="architecture-radiobtn" value="1"></td>
+                        <td><input class="radio-btn" type="radio" id="architecture__1" name="architecture-radiobtn" value="2"></td>
+                    </tr>
+                    <tr id="theory-mas-service">
+                        <td class="subject-name">Теория Массового Обслуживания</td>
+                        <td><input class="radio-btn" type="radio" id="theory-mas-service__1" name="theory-mas-service-radiobtn" value="0"></td>
+                        <td><input class="radio-btn" type="radio" id="theory-mas-service__2" name="theory-mas-service-radiobtn" value="1"></td>
+                        <td><input class="radio-btn" type="radio" id="theory-mas-service__3" name="theory-mas-service-radiobtn" value="2"></td>
+                    </tr>
+                    <tr id="economics">
+                        <td class="subject-name">Экономика</td>
+                        <td><input class="radio-btn" type="radio" id="economics__1" name="economics-radiobtn" value="0"></td>
+                        <td><input class="radio-btn" type="radio" id="economics__2" name="economics-radiobtn" value="1"></td>
+                        <td><input class="radio-btn" type="radio" id="economics__3" name="economics-radiobtn" value="2"></td>
+                    </tr>
+                    <tr id="db">
+                        <td class="subject-name">Базы Данных</td>
+                        <td><input class="radio-btn" type="radio" id="db__1" name="db-radiobtn" value="0"></td>
+                        <td><input class="radio-btn" type="radio" id="db__2" name="db-radiobtn" value="1"></td>
+                        <td><input class="radio-btn" type="radio" id="db__3" name="db-radiobtn" value="2"></td>
+                    </tr>
+                    <tr id="pe">
+                        <td class="subject-name">Физическая культура</td>
+                        <td><input class="radio-btn" type="radio" id="pe__1" name="pe-radiobtn" value="0"></td>
+                        <td><input class="radio-btn" type="radio" id="pe__2" name="pe-radiobtn" value="1"></td>
+                        <td><input class="radio-btn" type="radio" id="pe__3" name="pe-radiobtn" value="2"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="calc-container">
+            <p>Средний балл за контрольный срок составляет: <span id="average-mark"></span></p>
+            <button class="btn" id="calc-btn">Выполнить</button>
+            <button class="btn" id="cancel-btn">Отмена</button>
+        </div>
+    </div>
+</body>
+</html>

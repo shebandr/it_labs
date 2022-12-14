@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<students>
+    <student id="1">
+        <surname>Дручинин</surname>
+        <name>Семён</name>
+        <paternal>Сергеевич</paternal>
+
+        <group_name>ИП-112</group_name>
+        <course>2</course>
+        <faculty>ИВТ</faculty>
+
+        <marks>
+            <metrology>2</metrology>
+            <oop>2</oop>
+            <architecture>2</architecture>
+            <theory-mas-service>2</theory-mas-service>
+            <economics>2</economics>
+            <db>2</db>
+            <pe>2</pe>
+        </marks>
+    </student>
+    <student id="2">
+        <surname>Тихонов</surname>
+        <name>Никита</name>
+        <paternal>Алексеевич</paternal>
+
+        <group_name>ИП-112</group_name>
+        <course>2</course>
+        <faculty>ИВТ</faculty>
+
+        <marks>
+            <metrology>0</metrology>
+            <oop>1</oop>
+            <architecture>2</architecture>
+            <theory-mas-service>1</theory-mas-service>
+            <economics>1</economics>
+            <db>2</db>
+            <pe>2</pe>
+        </marks>
+    </student>
+    <student id="3">
+        <surname>Ведяев</surname>
+        <name>Александр</name>
+        <paternal>Владимирович</paternal>
+
+        <group_name>ПИ-054</group_name>
+        <course>2</course>
+        <faculty>ИВТ</faculty>
+
+        <marks>
+            <metrology>2</metrology>
+            <oop>0</oop>
+            <architecture>2</architecture>
+            <theory-mas-service>2</theory-mas-service>
+            <economics>2</economics>
+            <db>1</db>
+            <pe>2</pe>
+        </marks>
+    </student>
+    <student id="4">
+        <surname>Федин</surname>
+        <name>Павел</name>
+        <paternal>Сергеевич</paternal>
+
+        <group_name>АБ-12</group_name>
+        <course>3</course>
+        <faculty>МРМ</faculty>
+
+        <marks>
+            <metrology>1</metrology>
+            <oop>0</oop>
+            <architecture>1</architecture>
+            <theory-mas-service>2</theory-mas-service>
+            <economics>1</economics>
+            <db>1</db>
+            <pe>0</pe>
+        </marks>
+    </student>
+    <student id="5">
+        <surname>Соловьева</surname>
+        <name>Алина</name>
+        <paternal>Витальевна</paternal>
+
+        <group_name>Г-42</group_name>
+        <course>4</course>
+        <faculty>Гуманитарный</faculty>
+
+        <marks>
+            <metrology>2</metrology>
+            <oop>1</oop>
+            <architecture>1</architecture>
+            <theory-mas-service>2</theory-mas-service>
+            <economics>2</economics>
+            <db>1</db>
+            <pe>1</pe>
+        </marks>
+    </student>
+</students>
